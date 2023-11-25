@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./style.css" rel="stylesheet" />
+
     <title>Guessing Game</title>
   </head>
   <header>
@@ -13,11 +16,11 @@
     <p>The number is between 1 to 20</p>
     <div class="number">?</div>
     <p class="message">Start guessing...</p>
-    <input type="number" class="guess" />
-    <button class="btn check">Check</button>
-    <section class="left-msg">
-      <p class="label-score">Score: <span class="score">20</span></p>
-      <p class="label-highscore">Highscore:<span class="highscore">0</span></p>
+    <p class="label-score">Score: <span class="score">20</span></p>
+    <p class="label-highscore">Highscore:<span class="highscore">0</span></p>
+    <section class="input-check">
+      <input type="number" class="guess" />
+      <button class="btn check">Check</button>
     </section>
   </body>
 </html>
