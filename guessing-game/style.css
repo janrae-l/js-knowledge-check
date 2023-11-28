@@ -22,6 +22,11 @@ p {
   margin: 20px 0;
 }
 
+input {
+  text-align: center;
+  font-family: inherit;
+}
+
 .number {
   margin: auto;
   background: #eee;
@@ -37,6 +42,7 @@ p {
   width: 13rem;
   padding: 2rem 0rem;
   font-size: 6rem;
+  font-family: inherit;
 }
 
 .check {
@@ -55,6 +61,7 @@ p {
 
 .message {
   font-size: 35px;
+  margin: 30px 0;
 }
 
 .score,
@@ -66,7 +73,7 @@ p {
 
 .number-range {
   font-size: 21px;
-  margin-bottom: 27px;
+  margin-bottom: 40px;
 }
 
 .again {
@@ -74,4 +81,9 @@ p {
   border: 3px solid white;
   color: white;
   font-family: inherit;
+  margin-bottom: 25px;
+}
+
+.label-highscore {
+  margin-bottom: 25px;
 }
