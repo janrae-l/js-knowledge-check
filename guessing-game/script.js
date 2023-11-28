@@ -30,6 +30,7 @@ document.querySelector(".check").addEventListener("click", function () {
     } else {
       document.querySelector(".message").textContent =
         "No score left. You lose!";
+      document.querySelector(".score").textContent = 0;
       document.querySelector("body").style.backgroundColor = "#ff0000";
       document.querySelector(".number").textContent = secretNumber;
     }
